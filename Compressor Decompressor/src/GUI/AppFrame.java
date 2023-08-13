@@ -38,7 +38,7 @@ public class AppFrame extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent actionEvent) {
         if (actionEvent.getSource() == compressButton) {
-            JFileChooser fileChooser = new JFileChooser();
+            JFileChooser fileChooser = new JFileChooser("C:);
             int response = fileChooser.showSaveDialog(null);
             
             if (response == JFileChooser.APPROVE_OPTION) {
@@ -53,7 +53,7 @@ public class AppFrame extends JFrame implements ActionListener {
         }
 
         if (actionEvent.getSource() == decompressButton) {
-            JFileChooser fileChooser = new JFileChooser();
+            JFileChooser fileChooser = new JFileChooser("C:");
             int response = fileChooser.showSaveDialog(null);
             
             if (response == JFileChooser.APPROVE_OPTION) {
