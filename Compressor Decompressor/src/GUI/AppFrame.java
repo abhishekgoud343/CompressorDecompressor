@@ -7,7 +7,6 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import javax.swing.*;
 
-
 public class AppFrame extends JFrame implements ActionListener {
     JButton compressButton;
     JButton decompressButton;
@@ -17,6 +16,7 @@ public class AppFrame extends JFrame implements ActionListener {
         this.setLayout(null);
         this.setSize(800, 500);
         this.getContentPane().setBackground(Color.PINK);
+        this.setResizable(false);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         compressButton = new JButton("Select File to Compress");
