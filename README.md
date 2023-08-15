@@ -14,7 +14,7 @@ The application is built using the Java Swing toolkit.
 
 
 ## Instructions to run the Project locally
-1. Open the project folder (```SnakeGame2D```) in any IDE or code editor such as IntelliJ IDEA, VS Code, Eclipse etc.  
+1. Open the project folder (```Compressor Decompressor```) in any IDE or code editor such as IntelliJ IDEA, VS Code, Eclipse etc.  
 2. Run the java file at the location ```Compressor Decompressor/src/GUI/Main.java```  
 3. This java file contains the _main_ function and therefore the project can be thus run by running the aforementioned java file.  
 4. The application will load in a new window.
